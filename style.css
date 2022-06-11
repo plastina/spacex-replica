@@ -11,6 +11,7 @@ body {
 }
 
 
+
 h1,
 h2,
 h3,
@@ -409,4 +410,29 @@ section.module.parallax-6 {
 .copyright {
   color: grey;
   padding: 30px;
+}
+
+
+@media (max-width: 1270px){
+  .header-inner {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 300px){
+  .header-inner{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1270px){
+  .nav-links {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 300px){
+  .nav-links{
+    flex-direction: column;
+  }
 }
